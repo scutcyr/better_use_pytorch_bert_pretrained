@@ -5,6 +5,8 @@ This repository contains pre-trained models and vocab for:
 
 - [PyTorch Pretrained BERT](https://github.com/huggingface/pytorch-pretrained-BERT)
 
+This will allow you to better manage the BERT model without having to pull the model and vocab from https://s3.amazonaws.com/models.huggingface.co/bert each time you run it.
+
 ## Download PyTorch Pretrained BERT Model and vocab
 before download, you can change line 10 in download_pytorch-pretrained-BERT_model_and_vocab.sh to determine the path
 then, run:
