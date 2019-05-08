@@ -37,6 +37,8 @@ this allow you to change the code!
 
 Here is a quick-start example using `BertTokenizer`, `BertModel` and `BertForMaskedLM` class with Google AI's pre-trained `Bert base uncased` model. See the [doc section](#doc) below for all the details on these classes.
 
+You can change the pretrained_model_name_or_path = '/157Dataset/data-chen.yirong/pytorch_bert_pretrained_model/bert-base-cased/' to determine the bert loading path.
+
 First let's prepare a tokenized input with `BertTokenizer`
 
 ```python
